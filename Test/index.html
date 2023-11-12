@@ -1,0 +1,92 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Side bar</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./JS/sd.js"></script>
+        <style>
+            ul.ds{
+                list-style-type: none;
+                margin-left: 32px;
+                padding: 0;
+                width: 15%;
+                position: fixed;            
+                overflow: auto;
+            }
+
+            li a.ds {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+
+            li a.ds:hover {
+                background-color: #555;
+                color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="ds">
+            <li><a class="ds" href="#">Vivo</a></li>
+            <li><a class="ds" href="#">Lotte Q7</a></li>
+            <li><a class="ds" href="#">Vinh</a></li>
+            <li><a class="ds" href="#">Thảo Điền</a></li>
+            <li><a class="ds" href="#">dsads</a></li>
+            <li><a class="ds" href="#">dsadsa</a></li>
+            <li><a class="ds" href="#">dsafdsa</a></li>
+            <li><a class="ds" href="#">dsfsf</a></li>
+            <li><a class="ds" href="#">dsfadsfn</a></li>
+          </ul>
+
+        <div class="container">
+            <div style="margin-left: 15%; padding: 1px 16px; height: 1000px">                
+                <h2>Danh sách Voucher</h2>
+
+                <nav class="navbar navbar-expand-sm flex-row-reverse">
+                    <form class="form-inline" action="#">
+                    <input
+                        class="form-control mr-sm-2"
+                        type="text"
+                        placeholder="Search"
+                    />
+                    <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </nav>
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Số điện thoại</th>
+                            <th>Mã Voucher</th>
+                            <th>Nhà hàng phát</th>
+                            <th>Tên Khách hàng</th>
+                            <th>Hạn sử dụng</th>
+                            <th>Số lượng</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john@example.com</td>
+                            <td>dsacds</td>
+                            <td>dsacds</td>
+                            <td>dsacds</td>
+                            <td>dsacds</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+        </div>
+    </body>
+    </html>
